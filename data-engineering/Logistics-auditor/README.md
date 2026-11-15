@@ -1,3 +1,40 @@
+# Last Mile Auditor — Veridi Logistics
+
+**Are we failing specific regions, or is this nationwide?** Regional. Not nationwide.
+
+## A. Executive summary
+
+We joined 99,441 Olist orders to customers, the latest review per order, and English product categories, then audited **96,470 delivered** shipments. **8.1%** missed the estimated date and **4.4%** were more than five days late. That failure is concentrated in the North and Northeast: **Alagoas is 23.9% late** versus **5.9% in São Paulo**. Late deliveries cause the review spike: on-time orders score **4.29/5**, late orders score **2.57/5**. The CEO is wrong about nationwide over-promising — the average promise is 23 days and the average actual is 12 — but the extra buffer still is not enough in remote states. Fix ETAs and last-mile capacity in AL, MA, PI, CE first.
+
+## B. Project links
+
+Test every URL in Incognito.
+
+- **Repo (this folder):** https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/tree/main/data-engineering/Logistics-auditor
+- **Notebook:** https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/notebooks/last_mile_audit.ipynb
+- **Notebook (Colab):** https://colab.research.google.com/github/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/notebooks/last_mile_audit.ipynb
+- **Notebook HTML:** https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/exports/last_mile_audit.html
+- **Dashboard:** https://htmlpreview.github.io/?https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/dashboard/last_mile_dashboard.html
+- **Presentation:** https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/presentation/Last_Mile_Veridi.pptx
+
+Official form: https://forms.cloud.microsoft.com/e/CeQN2mCyUr
+
+## C. Technical explanation
+
+### Data cleaning and joins
+
+- Runtime download of the official Olist tables into `data/raw/` (relative paths). Raw CSVs are gitignored.
+- Reviews are 1-to-many: we keep the **latest review per `order_id`** so a second survey cannot duplicate a shipment. After joins, duplicated orders = **0**.
+- Products join through `order_items` (first item per order) then `product_category_name_translation.csv` for English names.
+- Canceled and unavailable orders are excluded from delay rates (they never arrived).
+- `Days_Difference = estimated − actual`. On Time ≥ 0; Late −5 to −1; Super Late < −5.
+
+### Candidate's choice
+
+A scatter of **promised transit days vs actual transit days by state**. Nationally we already pad the ETA (23 vs 12 days). Points still above the diagonal in the Northeast mean the policy buffer is not the last-mile reality. That tells ops whether to rewrite ETAs or add capacity.
+
+---
+
 # Project Brief: The "Last Mile" Logistics Auditor
 
 **Client:** Veridi Logistics (Global E-Commerce Aggregator)
@@ -143,22 +180,22 @@ Please edit this `README.md` file in your forked repository to include the follo
 
 ### 1. Repository & Code Checks
 
-- [ ] **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
-- [ ] **I have uploaded the `.ipynb` notebook file.**
-- [ ] **I have ALSO uploaded an HTML or PDF export** of the notebook.
-- [ ] **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
-- [ ] **My code uses Relative Paths.**
+- [x] **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
+- [x] **I have uploaded the `.ipynb` notebook file.**
+- [x] **I have ALSO uploaded an HTML or PDF export** of the notebook.
+- [x] **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
+- [x] **My code uses Relative Paths.**
 
 ### 2. Deliverable Checks
 
-- [ ] **My Dashboard link is publicly accessible.** (No login required).
-- [ ] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
-- [ ] **I have updated this `README.md` file** with my Executive Summary and technical notes.
+- [x] **My Dashboard link is publicly accessible.** (No login required).
+- [x] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
+- [x] **I have updated this `README.md` file** with my Executive Summary and technical notes.
 
 ### 3. Completeness
 
-- [ ] I have completed **User Stories 1-4**.
-- [ ] I have completed the **"Candidate's Choice"** challenge and explained it in the README.
+- [x] I have completed **User Stories 1-4**.
+- [x] I have completed the **"Candidate's Choice"** challenge and explained it in the README.
 
 **✅ Only when you have checked every box above, proceed to the submission form.**
 

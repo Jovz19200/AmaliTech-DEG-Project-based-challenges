@@ -1,0 +1,540 @@
+{
+  "n_orders": 99441,
+  "n_delivered": 96470,
+  "n_late": 7826,
+  "pct_late": 8.1,
+  "pct_super_late": 4.4,
+  "avg_days_difference": 10.88,
+  "on_time_review": 4.29,
+  "late_review": 2.57,
+  "review_gap": 1.73,
+  "remote_pct_late": 13.6,
+  "sp_pct_late": 5.9,
+  "worst_state": "AL",
+  "worst_state_pct_late": 23.9,
+  "worst_state_n": 397,
+  "best_large_state": "PR",
+  "best_large_state_pct_late": 5.0,
+  "avg_promised_days": 23.4,
+  "avg_actual_days": 12.1,
+  "furniture_late": 8.0,
+  "electronics_late": 7.9,
+  "state_table": [
+    {
+      "customer_state": "AL",
+      "region": "Northeast",
+      "remote": true,
+      "n": 397,
+      "pct_late": 23.9,
+      "pct_super_late": 14.4,
+      "avg_delay": -7.707808564231738,
+      "avg_review": 3.8477157360406093,
+      "avg_promised": 32.20906801007557,
+      "avg_actual": 24.04030226700252
+    },
+    {
+      "customer_state": "MA",
+      "region": "Northeast",
+      "remote": true,
+      "n": 717,
+      "pct_late": 19.7,
+      "pct_super_late": 11.3,
+      "avg_delay": -8.571827057182706,
+      "avg_review": 3.832865168539326,
+      "avg_promised": 30.0836820083682,
+      "avg_actual": 21.11715481171548
+    },
+    {
+      "customer_state": "PI",
+      "region": "Northeast",
+      "remote": true,
+      "n": 476,
+      "pct_late": 16.0,
+      "pct_super_late": 8.8,
+      "avg_delay": -10.306722689075631,
+      "avg_review": 3.9936305732484074,
+      "avg_promised": 29.701680672268907,
+      "avg_actual": 18.993697478991596
+    },
+    {
+      "customer_state": "CE",
+      "region": "Northeast",
+      "remote": true,
+      "n": 1279,
+      "pct_late": 15.3,
+      "pct_super_late": 11.1,
+      "avg_delay": -9.80453479280688,
+      "avg_review": 3.9442262372348784,
+      "avg_promised": 31.004691164972634,
+      "avg_actual": 20.817826426896012
+    },
+    {
+      "customer_state": "SE",
+      "region": "Northeast",
+      "remote": true,
+      "n": 335,
+      "pct_late": 15.2,
+      "pct_super_late": 12.2,
+      "avg_delay": -9.02089552238806,
+      "avg_review": 3.907185628742515,
+      "avg_promised": 30.48358208955224,
+      "avg_actual": 21.029850746268657
+    },
+    {
+      "customer_state": "BA",
+      "region": "Northeast",
+      "remote": true,
+      "n": 3256,
+      "pct_late": 14.0,
+      "pct_super_late": 8.5,
+      "avg_delay": -9.79453316953317,
+      "avg_review": 3.9296995973985753,
+      "avg_promised": 29.073095823095823,
+      "avg_actual": 18.86640049140049
+    },
+    {
+      "customer_state": "RJ",
+      "region": "Southeast",
+      "remote": false,
+      "n": 12350,
+      "pct_late": 13.5,
+      "pct_super_late": 9.1,
+      "avg_delay": -10.761214574898785,
+      "avg_review": 3.965277209073786,
+      "avg_promised": 25.998218623481783,
+      "avg_actual": 14.848582995951418
+    },
+    {
+      "customer_state": "TO",
+      "region": "North",
+      "remote": true,
+      "n": 274,
+      "pct_late": 12.8,
+      "pct_super_late": 6.9,
+      "avg_delay": -11.13138686131387,
+      "avg_review": 4.153846153846154,
+      "avg_promised": 28.72992700729927,
+      "avg_actual": 17.226277372262775
+    },
+    {
+      "customer_state": "PA",
+      "region": "North",
+      "remote": true,
+      "n": 946,
+      "pct_late": 12.4,
+      "pct_super_late": 9.0,
+      "avg_delay": -13.066596194503171,
+      "avg_review": 3.9142550911039655,
+      "avg_promised": 36.791754756871036,
+      "avg_actual": 23.316067653276956
+    },
+    {
+      "customer_state": "RR",
+      "region": "North",
+      "remote": true,
+      "n": 41,
+      "pct_late": 12.2,
+      "pct_super_late": 12.2,
+      "avg_delay": -16.29268292682927,
+      "avg_review": 3.902439024390244,
+      "avg_promised": 45.63414634146341,
+      "avg_actual": 28.975609756097562
+    },
+    {
+      "customer_state": "ES",
+      "region": "Southeast",
+      "remote": false,
+      "n": 1995,
+      "pct_late": 12.2,
+      "pct_super_late": 7.1,
+      "avg_delay": -9.496240601503759,
+      "avg_review": 4.078720162519045,
+      "avg_promised": 25.220050125313282,
+      "avg_actual": 15.331829573934836
+    },
+    {
+      "customer_state": "MS",
+      "region": "Center-West",
+      "remote": false,
+      "n": 701,
+      "pct_late": 11.6,
+      "pct_super_late": 6.4,
+      "avg_delay": -10.052781740370898,
+      "avg_review": 4.160228898426324,
+      "avg_promised": 25.59771754636234,
+      "avg_actual": 15.191155492154065
+    },
+    {
+      "customer_state": "PB",
+      "region": "Northeast",
+      "remote": true,
+      "n": 517,
+      "pct_late": 11.0,
+      "pct_super_late": 7.2,
+      "avg_delay": -12.261121856866538,
+      "avg_review": 4.076171875,
+      "avg_promised": 32.64990328820116,
+      "avg_actual": 19.95357833655706
+    },
+    {
+      "customer_state": "PE",
+      "region": "Northeast",
+      "remote": true,
+      "n": 1593,
+      "pct_late": 10.8,
+      "pct_super_late": 7.2,
+      "avg_delay": -12.293785310734464,
+      "avg_review": 4.082963901203294,
+      "avg_promised": 30.689265536723163,
+      "avg_actual": 17.965473948524796
+    },
+    {
+      "customer_state": "RN",
+      "region": "Northeast",
+      "remote": true,
+      "n": 474,
+      "pct_late": 10.8,
+      "pct_super_late": 6.8,
+      "avg_delay": -12.649789029535865,
+      "avg_review": 4.148619957537155,
+      "avg_promised": 31.873417721518987,
+      "avg_actual": 18.824894514767934
+    },
+    {
+      "customer_state": "SC",
+      "region": "South",
+      "remote": false,
+      "n": 3546,
+      "pct_late": 9.8,
+      "pct_super_late": 5.1,
+      "avg_delay": -10.503384094754653,
+      "avg_review": 4.133560670645069,
+      "avg_promised": 25.406373378454596,
+      "avg_actual": 14.475183305132544
+    },
+    {
+      "customer_state": "GO",
+      "region": "Center-West",
+      "remote": false,
+      "n": 1957,
+      "pct_late": 8.2,
+      "pct_super_late": 4.1,
+      "avg_delay": -11.185487991824221,
+      "avg_review": 4.103802672147996,
+      "avg_promised": 26.721512519161983,
+      "avg_actual": 15.15074092999489
+    },
+    {
+      "customer_state": "DF",
+      "region": "Center-West",
+      "remote": false,
+      "n": 2080,
+      "pct_late": 7.1,
+      "pct_super_late": 3.0,
+      "avg_delay": -11.048076923076923,
+      "avg_review": 4.131400966183575,
+      "avg_promised": 23.947115384615383,
+      "avg_actual": 12.509134615384616
+    },
+    {
+      "customer_state": "RS",
+      "region": "South",
+      "remote": false,
+      "n": 5344,
+      "pct_late": 7.1,
+      "pct_super_late": 4.3,
+      "avg_delay": -12.910366766467066,
+      "avg_review": 4.184754036800601,
+      "avg_promised": 28.158869760479043,
+      "avg_actual": 14.819236526946108
+    },
+    {
+      "customer_state": "MT",
+      "region": "Center-West",
+      "remote": false,
+      "n": 886,
+      "pct_late": 6.8,
+      "pct_super_late": 4.2,
+      "avg_delay": -13.363431151241535,
+      "avg_review": 4.145620022753128,
+      "avg_promised": 31.36681715575621,
+      "avg_actual": 17.59367945823928
+    },
+    {
+      "customer_state": "SP",
+      "region": "Southeast",
+      "remote": false,
+      "n": 40494,
+      "pct_late": 5.9,
+      "pct_super_late": 2.4,
+      "avg_delay": -10.075542055613177,
+      "avg_review": 4.245939502309641,
+      "avg_promised": 18.776114979997036,
+      "avg_actual": 8.298093544722676
+    },
+    {
+      "customer_state": "MG",
+      "region": "Southeast",
+      "remote": false,
+      "n": 11354,
+      "pct_late": 5.6,
+      "pct_super_late": 2.6,
+      "avg_delay": -12.242998062356879,
+      "avg_review": 4.19246787771378,
+      "avg_promised": 24.187951382772592,
+      "avg_actual": 11.542187775233398
+    },
+    {
+      "customer_state": "PR",
+      "region": "South",
+      "remote": false,
+      "n": 4923,
+      "pct_late": 5.0,
+      "pct_super_late": 2.2,
+      "avg_delay": -12.314239284988828,
+      "avg_review": 4.240204081632653,
+      "avg_promised": 24.252488320130002,
+      "avg_actual": 11.52671135486492
+    },
+    {
+      "customer_state": "AP",
+      "region": "North",
+      "remote": true,
+      "n": 67,
+      "pct_late": 4.5,
+      "pct_super_late": 1.5,
+      "avg_delay": -18.686567164179106,
+      "avg_review": 4.242424242424242,
+      "avg_promised": 45.865671641791046,
+      "avg_actual": 26.73134328358209
+    },
+    {
+      "customer_state": "AM",
+      "region": "North",
+      "remote": true,
+      "n": 145,
+      "pct_late": 4.1,
+      "pct_super_late": 1.4,
+      "avg_delay": -18.56551724137931,
+      "avg_review": 4.243055555555555,
+      "avg_promised": 44.92413793103448,
+      "avg_actual": 25.986206896551725
+    },
+    {
+      "customer_state": "AC",
+      "region": "North",
+      "remote": true,
+      "n": 80,
+      "pct_late": 3.8,
+      "pct_super_late": 2.5,
+      "avg_delay": -19.725,
+      "avg_review": 4.0875,
+      "avg_promised": 40.725,
+      "avg_actual": 20.6375
+    },
+    {
+      "customer_state": "RO",
+      "region": "North",
+      "remote": true,
+      "n": 243,
+      "pct_late": 2.9,
+      "pct_super_late": 1.6,
+      "avg_delay": -19.102880658436213,
+      "avg_review": 4.1652892561983474,
+      "avg_promised": 38.38683127572016,
+      "avg_actual": 18.91358024691358
+    }
+  ],
+  "region_table": [
+    {
+      "region": "Center-West",
+      "n": 5624,
+      "pct_late": 8.0,
+      "avg_review": 4.127636753664641
+    },
+    {
+      "region": "North",
+      "n": 1796,
+      "pct_late": 9.8,
+      "avg_review": 4.031478358628443
+    },
+    {
+      "region": "Northeast",
+      "n": 9044,
+      "pct_late": 14.3,
+      "avg_review": 3.9698050139275765
+    },
+    {
+      "region": "South",
+      "n": 13813,
+      "pct_late": 7.1,
+      "avg_review": 4.191415060021826
+    },
+    {
+      "region": "Southeast",
+      "n": 66193,
+      "pct_late": 7.5,
+      "avg_review": 4.1796108381129145
+    }
+  ],
+  "status_table": [
+    {
+      "delivery_status": "On Time",
+      "n": 88644,
+      "avg_review": 4.2940802831,
+      "avg_delay": -12.7071770227
+    },
+    {
+      "delivery_status": "Late",
+      "n": 3615,
+      "avg_review": 3.4604820628,
+      "avg_delay": 2.4459197787
+    },
+    {
+      "delivery_status": "Super Late",
+      "n": 4211,
+      "avg_review": 1.7849987784,
+      "avg_delay": 16.2374732843
+    }
+  ],
+  "sentiment_table": [
+    {
+      "delay_bucket": "early 1d+",
+      "n": 73702,
+      "avg_review": 4.2978009386
+    },
+    {
+      "delay_bucket": "on the day",
+      "n": 1462,
+      "avg_review": 4.1579310345
+    },
+    {
+      "delay_bucket": "1-2d late",
+      "n": 2117,
+      "avg_review": 3.9157142857
+    },
+    {
+      "delay_bucket": "3-5d late",
+      "n": 1498,
+      "avg_review": 2.8092643052
+    },
+    {
+      "delay_bucket": "6-10d late",
+      "n": 1912,
+      "avg_review": 1.8909188608
+    },
+    {
+      "delay_bucket": "11-20d late",
+      "n": 1415,
+      "avg_review": 1.6599131693
+    },
+    {
+      "delay_bucket": "21d+ late",
+      "n": 884,
+      "avg_review": 1.7564705882
+    }
+  ],
+  "category_table": [
+    {
+      "category_en": "audio",
+      "n": 344,
+      "pct_late": 13.1,
+      "avg_review": 3.8475073313782993
+    },
+    {
+      "category_en": "books technical",
+      "n": 255,
+      "pct_late": 11.0,
+      "avg_review": 4.425196850393701
+    },
+    {
+      "category_en": "home confort",
+      "n": 370,
+      "pct_late": 10.3,
+      "avg_review": 3.907608695652174
+    },
+    {
+      "category_en": "food",
+      "n": 435,
+      "pct_late": 10.1,
+      "avg_review": 4.324825986078887
+    },
+    {
+      "category_en": "electronics",
+      "n": 2507,
+      "pct_late": 9.9,
+      "avg_review": 4.128617363344051
+    },
+    {
+      "category_en": "baby",
+      "n": 2763,
+      "pct_late": 9.3,
+      "avg_review": 4.121488507843853
+    },
+    {
+      "category_en": "construction tools construction",
+      "n": 728,
+      "pct_late": 9.2,
+      "avg_review": 4.132780082987552
+    },
+    {
+      "category_en": "office furniture",
+      "n": 1246,
+      "pct_late": 9.2,
+      "avg_review": 3.650485436893204
+    },
+    {
+      "category_en": "construction tools lights",
+      "n": 231,
+      "pct_late": 9.1,
+      "avg_review": 4.214912280701754
+    },
+    {
+      "category_en": "health beauty",
+      "n": 8608,
+      "pct_late": 9.0,
+      "avg_review": 4.235459004905396
+    },
+    {
+      "category_en": "unknown",
+      "n": 1359,
+      "pct_late": 9.0,
+      "avg_review": 4.028148148148148
+    },
+    {
+      "category_en": "musical instruments",
+      "n": 607,
+      "pct_late": 8.9,
+      "avg_review": 4.247920133111481
+    },
+    {
+      "category_en": "bed bath table",
+      "n": 9167,
+      "pct_late": 8.8,
+      "avg_review": 4.010471781305115
+    },
+    {
+      "category_en": "watches gifts",
+      "n": 5470,
+      "pct_late": 8.6,
+      "avg_review": 4.12707182320442
+    },
+    {
+      "category_en": "furniture decor",
+      "n": 6213,
+      "pct_late": 8.6,
+      "avg_review": 4.073617642289606
+    }
+  ],
+  "drop_log": {
+    "orders_in": 99441,
+    "reviews_in": 99224,
+    "review_rows_dropped_as_duplicate": 551,
+    "canceled_or_unavailable": 1234,
+    "other_not_delivered": 1737,
+    "delivered_audited": 96470,
+    "master_rows": 99441,
+    "orders_duplicated_after_join": 0
+  },
+  "recommendation": "Late deliveries are regional, not nationwide: AL is at 23.9% late vs S\u00e3o Paulo at 5.9%. On-time orders score 4.29/5; late orders score 2.57/5 (a 1.73 point drop). North/Northeast run 13.6% late. Repair ETAs and last-mile capacity there first."
+}

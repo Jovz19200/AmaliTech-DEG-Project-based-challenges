@@ -1,0 +1,9 @@
+data/raw/*.csv
+data/hf/
+data/processed/audit_orders.csv
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+*.pyc
+.DS_Store
