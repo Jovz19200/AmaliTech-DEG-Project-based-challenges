@@ -15,7 +15,7 @@ Test every URL in Incognito.
 - **Notebook (Colab):** https://colab.research.google.com/github/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/notebooks/last_mile_audit.ipynb
 - **Notebook HTML:** https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/exports/last_mile_audit.html
 - **Dashboard:** https://jovz19200.github.io/last-mile-auditor/
-- **Presentation:** https://github.com/Jovz19200/AmaliTech-DEG-Project-based-challenges/blob/main/data-engineering/Logistics-auditor/presentation/Last_Mile_Veridi.pptx
+- **Presentation:** https://docs.google.com/presentation/d/1G2zUW_YKvmHdRIcJtwbE2TMPH4mhZ4N6SChsHg6aMT8/edit?usp=sharing
 
 Official form: https://forms.cloud.microsoft.com/e/CeQN2mCyUr
 
